@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-28T07:45:56.089Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46" etag="V68D_bDGdlpKB0zBqfjE" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-28T07:58:09.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46" etag="22Pe_198kIQj0xTkJDfv" version="14.6.6" type="github">
   <diagram name="Page-1" id="12e1b939-464a-85fe-373e-61e167be1490">
     <mxGraphModel dx="1685" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -96,6 +96,9 @@
         <mxCell id="r-cdDHOCOQJCGdyeqQd3-26" value="додаток чи сервіс для заведення збірних замовлень" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="1050" width="140" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="r-cdDHOCOQJCGdyeqQd3-54" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r-cdDHOCOQJCGdyeqQd3-29" target="r-cdDHOCOQJCGdyeqQd3-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="r-cdDHOCOQJCGdyeqQd3-29" value="файли, зображення" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1280" y="850" width="140" height="80" as="geometry" />
         </mxCell>
@@ -137,14 +140,29 @@
         <mxCell id="r-cdDHOCOQJCGdyeqQd3-45" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="r-cdDHOCOQJCGdyeqQd3-42" target="r-cdDHOCOQJCGdyeqQd3-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r-cdDHOCOQJCGdyeqQd3-42" value="сервіс повідомлень" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="270" width="400" height="60" as="geometry" />
+        <mxCell id="r-cdDHOCOQJCGdyeqQd3-42" value="сервіс повідомлень (E-mail, SMS, Telegram, 1C)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="370" width="400" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r-cdDHOCOQJCGdyeqQd3-46" value="&lt;ol&gt;&lt;li&gt;Список замовлень з полімікс в яких є відкриті збірні замовлення&lt;/li&gt;&lt;li&gt;Список збірних замовлень&lt;/li&gt;&lt;li&gt;Друк стікерів на збірне замовлення&lt;/li&gt;&lt;li&gt;Відмічання виконаного збірного замовлення&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="470" y="580" width="270" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="r-cdDHOCOQJCGdyeqQd3-49" value="Сервіс&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="580" width="190" height="130" as="geometry" />
+        <mxCell id="r-cdDHOCOQJCGdyeqQd3-51" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.525;entryY=1.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="r-cdDHOCOQJCGdyeqQd3-49" target="r-cdDHOCOQJCGdyeqQd3-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-cdDHOCOQJCGdyeqQd3-52" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=35;entryPerimeter=0;" edge="1" parent="1" source="r-cdDHOCOQJCGdyeqQd3-49" target="r-cdDHOCOQJCGdyeqQd3-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-cdDHOCOQJCGdyeqQd3-53" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=35;entryPerimeter=0;" edge="1" parent="1" source="r-cdDHOCOQJCGdyeqQd3-49" target="r-cdDHOCOQJCGdyeqQd3-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-cdDHOCOQJCGdyeqQd3-49" value="&lt;ol&gt;&lt;li&gt;Міняє статус в полімікс при повністю завершеному замовленні&lt;/li&gt;&lt;li&gt;Повідомляє замовника про виконання замавлення&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="797" y="580" width="223" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="r-cdDHOCOQJCGdyeqQd3-50" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="r-cdDHOCOQJCGdyeqQd3-46" target="r-cdDHOCOQJCGdyeqQd3-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="700" as="sourcePoint" />
+            <mxPoint x="780" y="650" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
